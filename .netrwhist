@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/Users/sume/tormeda/algorithms/l33tcode/src/main/scala'
+let g:netrw_dirhist_5='/Users/sume/tormeda/algorithms/l33tcode/src/main'
+let g:netrw_dirhist_4='/Users/sume/tormeda/algorithms/l33tcode/src'
+let g:netrw_dirhist_3='/Users/sume/tormeda/algorithms/l33tcode'
+let g:netrw_dirhist_2='/Users/sume/tormeda/algorithms/l33tcode/src/main/scala'
+let g:netrw_dirhist_1='/Users/sume/tormeda/algorithms/l33tcode/src/main'
+let g:netrw_dirhist_0='/Users/sume/tormeda/algorithms/l33tcode/src'
+let g:netrw_dirhist_9='/Users/sume/tormeda/algorithms/l33tcode'
+let g:netrw_dirhist_8='/Users/sume/tormeda/algorithms/l33tcode/src/main/scala'
+let g:netrw_dirhist_7='/Users/sume/tormeda/algorithms/l33tcode/src/main'
