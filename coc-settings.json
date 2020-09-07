@@ -1,5 +1,32 @@
 {
 	"codeLens.enable": true,
-	"coc.preferences.formatOnSaveFiletypes": ["scala"]
-
+	"coc.preferences.formatOnSaveFiletypes": [
+		"scala",
+		"purescript",
+		"json"
+	],
+	"coc.preferences.hoverTarget": "float",
+	"signature.target": "float",
+	"languageserver": {
+		"purescript": {
+			"command": "purescript-language-server",
+			"args": [
+				"--stdio",
+				"--config {}"
+			],
+			"filetypes": [
+				"purescript"
+			],
+			"rootPatterns": [
+				"boer.json",
+				"psc-package.json",
+				"spago.dhall"
+			],
+			"settings": {
+				"purescript": {
+					"addSpagoSources": true // etc
+				}
+			}
+		}
+	}
 }

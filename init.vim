@@ -11,8 +11,15 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-airline/vim-airline'
 
 " Gruvbox
-Plug 'morhetz/gruvbox'
+"Plug 'morhetz/gruvbox'
+Plug 'sainnhe/gruvbox-material'
 
+
+Plug 'purescript-contrib/purescript-vim'
+
+
+" file navigator
+Plug 'ctrlpvim/ctrlp.vim'
 
 " Initialize plugin end
 call plug#end()
@@ -84,8 +91,6 @@ endfunction
 " Highlight symbol under cursor on CursorHold
 autocmd CursorHold * silent call CocActionAsync('highlight')
 
-" Gruvbox
-autocmd vimenter * colorscheme gruvbox
 
 " Remap for rename current word
 nmap <leader>rn <Plug>(coc-rename)
@@ -153,3 +158,21 @@ nnoremap <silent> <space>tc :<C-u>CocCommand metals.tvp metalsCompile<CR>
 nnoremap <silent> <space>tb :<C-u>CocCommand metals.tvp metalsBuild<CR>
 " Reveal current current class (trait or object) in Tree View 'metalsPackages'
 nnoremap <silent> <space>tf :<C-u>CocCommand metals.revealInTreeView metalsPackages<CR>
+
+" Purescript
+
+syntax on
+filetype on
+filetype plugin indent on
+let g:vimmerps_disable_mappings = v:true
+let purescript_indent_if = 3
+let purescript_indent_case = 5
+let purescript_indent_let = 4
+let purescript_indent_where = 6
+let purescript_indent_where = 6
+let purescript_indent_in = 1
+let purescript_indent_dot = v:true
+
+
+" Theme
+"autocmd vimenter *  colorscheme gruvbox
