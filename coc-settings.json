@@ -11,8 +11,8 @@
 		"purescript": {
 			"command": "purescript-language-server",
 			"args": [
-				"--stdio",
-				"--config {}"
+				"--stdio"
+				//	,"--config {}"
 			],
 			"filetypes": [
 				"purescript"

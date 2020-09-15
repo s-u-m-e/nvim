@@ -8,7 +8,7 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Status/Tabline
-Plug 'vim-airline/vim-airline'
+"Plug 'vim-airline/vim-airline'
 
 " Gruvbox
 "Plug 'morhetz/gruvbox'
@@ -164,7 +164,6 @@ nnoremap <silent> <space>tf :<C-u>CocCommand metals.revealInTreeView metalsPacka
 syntax on
 filetype on
 filetype plugin indent on
-let g:vimmerps_disable_mappings = v:true
 let purescript_indent_if = 3
 let purescript_indent_case = 5
 let purescript_indent_let = 4
@@ -173,6 +172,4 @@ let purescript_indent_where = 6
 let purescript_indent_in = 1
 let purescript_indent_dot = v:true
 
-
-" Theme
-"autocmd vimenter *  colorscheme gruvbox
+colorscheme gruvbox-material
